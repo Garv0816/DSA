@@ -35,5 +35,32 @@
 // console.log(count)
 
 
+// let palindromNum = 12321;
+// function Palindrom(num){
+//     let rev =0;
+//     let rem=palindromNum
+//     while(palindromNum>0){
+//         rem= palindromNum%10
+//         rem = rev;
+//         rem = (palindromNum/10)
+//         rev = (rem*10) + rev
+
+//     }
+
+//     console.log(rev)
+    
+// }
+// Palindrom(palindromNum)
 
 
+//armstron number
+
+function armstron(){
+let num = 153;
+let arr = num.split(' , ').
+console.log(arr);
+
+
+}
+
+armstron();
