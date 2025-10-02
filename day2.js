@@ -56,10 +56,20 @@
 //armstron number
 
 function armstron(){
-let num = 153;
-let arr = num.split(' , ').
-console.log(arr);
+let num = 1232 ;
+let arr = String(num).split('').map((numbers)=>numbers*numbers*numbers);
+let sum =0;
+arr.map((num)=> sum += num);
+// console.log(sum)
 
+
+
+if(sum == num){
+    console.log("Yes is a Anstron number")
+}
+else{
+    console.log("No it is not a Anstron number")
+}
 
 }
 
